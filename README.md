@@ -1,5 +1,5 @@
 <p align="center">
-<img  src = bloodbank.png>
+<img  src = /images/bloodbank.png>
 </p>
 
 # Blood Bank
