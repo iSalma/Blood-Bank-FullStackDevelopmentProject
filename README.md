@@ -5,8 +5,8 @@
 # Blood Bank
 desc...
 
-# Website
-[Blood Bank Website Link](https://isalma.github.io/Blood-Bank-FullStackDevelopmentProject/index.html)
+# Visit the Website
+Click [Here](https://isalma.github.io/Blood-Bank-FullStackDevelopmentProject/index.html)
 
 # Team
 - [Doaa Essam](https://github.com/DoaaEssam52)
