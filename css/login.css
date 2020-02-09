@@ -1,0 +1,502 @@
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    overflow: hidden;
+}
+
+
+/*---------------------------------------------*/
+
+a {
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+a:focus {
+    outline: none !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/*---------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+p {
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+}
+
+.pcontainerHoriz {
+    padding-left: 2rem;
+    padding-Right: 2rem;
+}
+
+.pcontainInnerHoriz {
+    padding-left: 3rem;
+    padding-Right: 3rem;
+}
+
+
+/*d-flex for all browsers*/
+
+.displayFlex {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+}
+
+
+/*---------------------------------------------*/
+
+input {
+    outline: none;
+    border: none;
+}
+
+input:focus {
+    border-color: transparent !important;
+}
+
+input::-webkit-input-placeholder {
+    color: #999999;
+}
+
+input:-moz-placeholder {
+    color: #999999;
+}
+
+input::-moz-placeholder {
+    color: #999999;
+}
+
+input:-ms-input-placeholder {
+    color: #999999;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #999999;
+}
+
+textarea:-moz-placeholder {
+    color: #999999;
+}
+
+textarea::-moz-placeholder {
+    color: #999999;
+}
+
+textarea:-ms-input-placeholder {
+    color: #999999;
+}
+
+
+/*---------------------------------------------*/
+
+button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Utility ]*/
+
+.txt1 {
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    line-height: 1.4;
+    color: #999999;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ login ]*/
+
+.container-login100 {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.wrap-login100 {
+    width: 390px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+/*==================================================================
+[ Form ]*/
+
+.wrap-login100 {
+    margin: auto;
+    position: relative;
+    top: 18% !important;
+    left: 0;
+}
+
+.login100-form-title {
+    display: block;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 30px;
+    color: black;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.input100 {
+    font-size: 16px;
+    color: black;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    padding: 0 10px 0 20px;
+}
+
+
+/*------------------------------------------------------------------
+[ Focus Input ]*/
+
+.focus-input100 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.input100:focus+.focus-input100 {
+    box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+/*------------------------------------------------------------------
+[ Button ]*/
+
+.container-login100-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.login100-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #da5552;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.login100-form-btn:hover {
+    background-color: #fff;
+    color: #da5552;
+    border: 1px solid #da5552;
+}
+
+
+/*------------------------------------------------------------------
+[ Alert validate ]*/
+
+.validate-input {
+    position: relative;
+}
+
+.alert-validate .focus-input100 {
+    box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.alert-validate::before {
+    content: attr(data-validate);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    min-height: 62px;
+    background-color: #fff;
+    border-radius: 20px;
+    top: 0px;
+    left: 0px;
+    padding: 0 45px 0 22px;
+    pointer-events: none;
+    font-family: SourceSansPro-Bold;
+    font-size: 16px;
+    color: #999999;
+    line-height: 1.2;
+}
+
+.btn-hide-validate {
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 15px;
+    color: #fa4251;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 62px;
+    top: 0px;
+    right: 23px;
+}
+
+.rs1-alert-validate.alert-validate::before {
+    background-color: #fff;
+}
+
+.true-validate::after {
+    content: "\f269";
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 15px;
+    color: #57b846;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 62px;
+    top: 0px;
+    right: 23px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Remember me and forgot pass ]*/
+
+#RememberMe {
+    height: 1.5rem;
+    transform: scale(1.2);
+}
+
+#rememberLabel {
+    font-size: 0.9rem;
+    color: #666666;
+    padding-left: 0.2rem !important;
+}
+
+#forgetPass {
+    font-size: 0.9rem;
+    color: #666666;
+    padding-top: 0.2rem;
+    transition: color 0s 0s;
+}
+
+#forgetPass:hover {
+    cursor: pointer;
+    color: #ea4335;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Social item ]*/
+
+.login100-social-item {
+    font-size: 25px;
+    color: #3b5998;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 5px;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.login100-social-item:hover {
+    color: #3b5998;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.bg1 {
+    background-color: #3b5998;
+}
+
+.bg2 {
+    background-color: #1da1f2;
+}
+
+.bg3 {
+    background-color: #ea4335;
+}
+
+.text-white {
+    color: white !important;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Responsive ]*/
+
+@media (max-width: 480px) {
+    .wrap-login100 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width:412px) {
+    .pcontainerHoriz {
+        padding-left: 1rem !important;
+        padding-Right: 1rem !important;
+    }
+    .pcontainInnerHoriz {
+        padding-left: 1rem !important;
+        padding-Right: 1rem !important;
+    }
+}
+
+@media(max-width:400px) {
+    .wrap-login100 {
+        width: 300px;
+        top: 7% !important;
+    }
+}
+
+@media(max-width:350px) {
+    .wrap-login100 {
+        top: 4% !important;
+    }
+    .login100-form-title {
+        padding-top: 0.2rem !important;
+        padding-bottom: 1rem !important;
+        font-size: 1.4rem;
+    }
+    .loginWith {
+        padding: 0.2rem 0rem !important;
+    }
+}
+
+
+/**********/
