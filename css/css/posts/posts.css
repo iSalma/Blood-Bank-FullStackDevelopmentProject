@@ -1,0 +1,164 @@
+/* You can add global styles to this file, and also import other style files */
+
+ 
+body
+{
+    background-color: #f1f1f1;
+}
+.owl-carousel .owl-nav .owl-prev, .owl-carousel  .owl-dot{
+  
+    position: absolute !important;
+    top:50%;
+    transform: translateY(-50%);
+   left:-30px !important;
+  
+   border: 1px solid #000 !important;
+//    padding: 20px  40px !important;
+   border-radius: 50% !important;
+ 
+}
+.owl-carousel .owl-nav  .owl-next , .owl-carousel  .owl-dot
+{
+    position: absolute !important;
+    top:50%;
+    transform: translateY(-50%);
+   right: -30px !important;
+ 
+   border: 1px solid rgba(0,0,0,.9) !important;
+//    padding: 20px  40px !important;
+   border-radius: 50% !important;
+ 
+}
+
+.owl-carousel  i
+{
+    padding: 5px 10px;
+}
+.brdr-img::before
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    border: 10px solid rgba(198, 165, 107, 0.3);
+}
+
+.brdr-img
+{
+    position: relative;
+}
+
+.circle-img
+{
+    transform: translateY(-70%);
+  
+}
+
+
+.card span
+{
+    border-bottom: 2px solid orange;
+    padding-bottom: 10px;
+}
+
+.page .profile-img
+{
+    transform: scale(.6);
+}
+.card
+{
+    border: none;
+    padding: 0 !important;
+}
+.page a
+{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-bottom: 3px;
+}
+
+.heart
+{
+    margin-left: auto;
+    transform: scale(.7);
+    
+}
+.media input
+{
+    border-radius: 50px;
+    background-color: #f1f1f1;
+    box-shadow: inset 0px 1px 10px 0px rgba(85, 85, 85, 0.2);
+   border: none;
+   
+}
+body{
+    background-color: #f1f1f1;
+}
+.media 
+{
+position: relative;
+
+}
+.media button
+{
+
+border-radius: 50px;
+border:none;
+background-color: #dc4734;
+padding: 9px 25px;
+color:#fff;
+font-size: 12px;
+font-weight: 700;
+}
+.media img
+{
+    transform: scale(.8);
+}
+p{
+    margin-bottom: 0 !important;
+}
+i
+{
+    margin:5px;
+    cursor: pointer;
+}
+a
+{
+    text-decoration: none;
+    color: #000;
+}
+a:hover
+
+
+    {
+        text-decoration: none;
+        color: #000;
+    }
+
+.thum
+{
+    transform: scale(.4);
+}
+.btn-container
+{
+    position: absolute;
+    right: 10px;
+    top:50%;
+    transform: translateY(-50%);
+    
+}
+.box img 
+{
+    transform: scale(.6);
+   
+    
+}
+
+footer
+{
+    background-color: #f1f1f1;
+}
