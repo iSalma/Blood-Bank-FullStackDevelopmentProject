@@ -1,0 +1,76 @@
+.info span
+{
+  font-weight: bold; 
+  margin-right: 4px;
+}
+
+.left-side
+{
+    background-color: rgba(255,255,255,0.48);
+    padding: 20px 25px;
+    border-radius: 15%;
+}
+
+.info p
+{
+    border: 2px solid rgba(255,255,255,0.8);;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 5px;
+    padding-left: 15px;
+    font-family: 'Cabin', sans-serif;
+    color: #1c1c1c;
+}
+
+.info p span
+{
+    color: #000;
+    font-weight: bold;
+}
+
+h3
+{
+    color: rgba(0,0,0,0.9);
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+}
+
+body
+{
+    background-size: cover
+}
+
+img
+{
+    border: 11px solid rgba(255,255,255,0.3);
+}
+
+.right-side
+{
+    overflow:scroll;
+    height: 450px;
+    border-radius: 10px;
+    background-color: #f5f0f0;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+}
+
+.posts .post-unit
+{
+    padding: 3px;
+    background-color: #ededed;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 7px;
+    margin-bottom: 15px
+}
+
+@media (min-width: 400px)  {
+    img
+    {
+      margin-bottom: 20px;  
+    }
+  .col-md-5{
+    margin-bottom: 20px;
+  }
+}
